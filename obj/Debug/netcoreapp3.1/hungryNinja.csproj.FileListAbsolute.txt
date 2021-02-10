@@ -1,0 +1,13 @@
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\obj\Debug\netcoreapp3.1\hungryNinja.csprojAssemblyReference.cache
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\obj\Debug\netcoreapp3.1\hungryNinja.AssemblyInfoInputs.cache
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\obj\Debug\netcoreapp3.1\hungryNinja.AssemblyInfo.cs
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\obj\Debug\netcoreapp3.1\hungryNinja.csproj.CoreCompileInputs.cache
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\bin\Debug\netcoreapp3.1\hungryNinja.exe
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\bin\Debug\netcoreapp3.1\hungryNinja.deps.json
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\bin\Debug\netcoreapp3.1\hungryNinja.runtimeconfig.json
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\bin\Debug\netcoreapp3.1\hungryNinja.runtimeconfig.dev.json
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\bin\Debug\netcoreapp3.1\hungryNinja.dll
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\bin\Debug\netcoreapp3.1\hungryNinja.pdb
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\obj\Debug\netcoreapp3.1\hungryNinja.dll
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\obj\Debug\netcoreapp3.1\hungryNinja.pdb
+C:\Users\Owner\OneDrive\Desktop\Dojo_Assignments\csharp\hungryNinja\obj\Debug\netcoreapp3.1\hungryNinja.genruntimeconfig.cache
