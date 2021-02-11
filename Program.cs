@@ -1,26 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic; //  use this to allow 
 namespace hungryNinja
 {
     class Program
     {
         static void Main(string[] args)
         {
-
-            Ninja Zach = new Ninja();
-            Buffet menu = new Buffet();
-            Food item = menu.Serve();
-            Zach.Eat(menu.Serve());
+            //object refference 
+            var Zach = new Ninja();
+            var menu = new Buffet();
+            
+            while(Zach.isFull != true)
+            {
+                var food= menu.Serve();
+                Zach.Eat(menu.Serve());
+            }
             Zach.Eat(menu.Serve());
         }
         class Food
         {
+            //Fields
             public string Name;
             public int Calories;
             // Foods can be Spicy and/or Sweet
             public bool IsSpicy;
             public bool IsSweet;
             // add a constructor that takes in all four parameters: Name, Calories, IsSpicy, IsSweet
+            // runs when we create a new instance.
             public Food(string foodName, int cals, bool spicy, bool sweet)
             {
                 Name = foodName;
@@ -52,7 +58,7 @@ namespace hungryNinja
             {
                 {
                     var rand = new Random();
-                    return Menu[rand.Next(0, Menu.Count)];
+                    return Menu[rand.Next(Menu.Count)];
                 }
 
             }
@@ -74,9 +80,10 @@ namespace hungryNinja
             // add a public "getter" property called "IsFull"
             public bool isFull
             {
+                //derived from call intake eaten by ninja
                 get
                 {
-                    if (calorieIntake > 1200)
+                    if (calorieIntake > 3200)
                     {
                         return true;
                     }
@@ -92,22 +99,22 @@ namespace hungryNinja
             // build out the Eat method
             public void Eat(Food item)
             {
-                if (isFull == false)
-                {
-                    Console.WriteLine(calorieIntake);
-                    FoodHistory.Add(item);
-                    Console.WriteLine($"Eating... {item.Name}");
-                    calorieIntake += item.Calories;
-                    Console.WriteLine(calorieIntake);
-                    Console.WriteLine($"Buffet Item: {item.Name},\n Item spicy: {item.IsSpicy},\n Item Sweet: {item.IsSweet}");
-                }
-                else
+                if (isFull)
                 {
                     Console.WriteLine("THIS NINJA IS GONNA POP");
                 }
+
+                    else
+                    {
+                        Console.WriteLine(calorieIntake);
+                        FoodHistory.Add(item);
+                        Console.WriteLine($"Eating... {item.Name}");
+                        calorieIntake += item.Calories;
+                        Console.WriteLine(calorieIntake);
+                        Console.WriteLine($"Buffet Item: {item.Name},\n Item spicy: {item.IsSpicy},\n Item Sweet: {item.IsSweet}");
+                    }
             }
         }
-
     }
-}
 
+}
